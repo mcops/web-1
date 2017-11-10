@@ -20,9 +20,9 @@ if($_POST) {
         $error['email'] = "Bitte geben Sie eine gültige E-Mail-Adresse ein.";
     }
     // Check Message
-    if (strlen($contact_message) < 15) {
-        $error['message'] = "Bitte geben Sie Ihre Nachricht ein. Mindestens 15 Zeichen.";
-    }
+    // if (strlen($contact_message) < 15) {
+       // $error['message'] = "Bitte geben Sie Ihre Nachricht ein. Mindestens 15 Zeichen.";
+    //}
    // Subject
     if ($subject == '') { $subject = "Contact Form Submission"; }
 
